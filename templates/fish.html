@@ -1,0 +1,39 @@
+<center>
+    <html>
+        <head>
+            <link rel="stylesheet" href="{{ url_for('static',filename='f.css') }}">
+            <body>
+                <h1 style="color: #010d06">Fish Weight Predictor</h1>
+
+                <form method="POST" action="/result">
+                    <label for="Species">Species:</label><br>
+                    <br>
+                    <input type="number" name="species" placeholder="0 t0 6"><br>
+                    <br>
+                
+                    <label for="len1">Len1:</label><br>
+                    <br>
+                    <input type="number" name="len1" placeholder="0 to 70"><br><br>
+                    
+                    <label for="len2">Len2:</label><br>
+                    <br>
+                    <input type="number" name="len2" placeholder="0 to 70"><br><br> 
+                    
+                    <label for="len3">Len3:</label><br>
+                    <br>
+                    <input type="number" name="len3" placeholder="0 to 70"><br><br>
+                    
+                    <label for="Height">height:</label><br>
+                    <br>
+                    <input type="number" name="height" placeholder="0 to 20"><br><br>
+                    
+                    <label for="width">width:</label><br>
+                    <br>
+                    <input type="number" name="width" placeholder="0 to 10"><br><br>
+                    
+                    <input type="Submit" value="Submit" id="btn">
+                </form>
+            </body>
+        </head>
+    </html>
+</center>
